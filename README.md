@@ -17,10 +17,9 @@ Firefox 16.0.2
 
 ## オブジェクト実装パターン
 
-実装オブジェクトはApp.namespaceで管理する。
+オブジェクトはApp.namespaceで管理する。
 
-* 実装オブジェクトは1ファイルに１オブジェクトを定義する。
-* 実装オブジェクトの利用はeditor_main.jsで行う。
+* 1ファイルに１オブジェクトを定義する。
 
 ### オブジェクトの実装
 
@@ -53,9 +52,7 @@ Firefox 16.0.2
     });
 
 
-### 実装オブジェクトの利用(main.js)
-
-実装オブジェクトはmain.jsから利用する。
+### オブジェクトの利用
 
     jQuery(function($) {
         var example = App.namespace('example');
@@ -70,9 +67,8 @@ Firefox 16.0.2
 
 ## 名前空間
 
-App.namespaceは引数に指定されたオブジェクトが内部オブジェクトリストにあるときはそのオブジェクトを返す。
+App.namespaceは引数に指定されたオブジェクトが内部オブジェクトリストにあるときはそのオブジェクトを返す。  
 無ければ空オブジェクト{}を作成し内部オブジェクトリストに登録して返す。
-
 
 
 # Image module
@@ -118,7 +114,7 @@ ImageDataはHTMLCanvasElementのピクセルデータの情報を表す。data�
       readonly attribute Uint8ClampedArray data;
     };
 
-上記のImageDataオブジェクトのdata配列例
+ImageDataオブジェクトのdata配列例。
 
     [
         // 左上 白(FFFFFF)のピクセル情報
