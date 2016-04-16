@@ -1,0 +1,1933 @@
+{
+    "project": {},
+    "files": {
+        "app\\app.js": {
+            "name": "app\\app.js",
+            "modules": {
+                "App": 1
+            },
+            "classes": {},
+            "fors": {},
+            "namespaces": {}
+        },
+        "filtering\\boundary.js": {
+            "name": "filtering\\boundary.js",
+            "modules": {
+                "filtering": 1
+            },
+            "classes": {
+                "Boundary": 1
+            },
+            "fors": {},
+            "namespaces": {}
+        },
+        "filtering\\filter.js": {
+            "name": "filtering\\filter.js",
+            "modules": {},
+            "classes": {
+                "Filter": 1
+            },
+            "fors": {},
+            "namespaces": {}
+        },
+        "filtering\\handle.js": {
+            "name": "filtering\\handle.js",
+            "modules": {},
+            "classes": {
+                "Handle": 1
+            },
+            "fors": {},
+            "namespaces": {}
+        },
+        "filtering\\pointfilter.js": {
+            "name": "filtering\\pointfilter.js",
+            "modules": {},
+            "classes": {
+                "PointFilter": 1
+            },
+            "fors": {},
+            "namespaces": {}
+        },
+        "filtering\\scan.js": {
+            "name": "filtering\\scan.js",
+            "modules": {},
+            "classes": {
+                "Scan": 1
+            },
+            "fors": {},
+            "namespaces": {}
+        },
+        "filtering\\spatialfilter.js": {
+            "name": "filtering\\spatialfilter.js",
+            "modules": {},
+            "classes": {
+                "SpatialFilter": 1
+            },
+            "fors": {},
+            "namespaces": {}
+        },
+        "graphic\\graphic.js": {
+            "name": "graphic\\graphic.js",
+            "modules": {
+                "graphic": 1
+            },
+            "classes": {
+                "Graphic": 1
+            },
+            "fors": {},
+            "namespaces": {}
+        },
+        "original\\original.js": {
+            "name": "original\\original.js",
+            "modules": {
+                "original": 1
+            },
+            "classes": {
+                "Original": 1
+            },
+            "fors": {},
+            "namespaces": {}
+        },
+        "text\\text.js": {
+            "name": "text\\text.js",
+            "modules": {
+                "text": 1
+            },
+            "classes": {
+                "Text": 1
+            },
+            "fors": {},
+            "namespaces": {}
+        },
+        "text\\texthandle.js": {
+            "name": "text\\texthandle.js",
+            "modules": {},
+            "classes": {
+                "TextHandle": 1
+            },
+            "fors": {},
+            "namespaces": {}
+        },
+        "transform\\transformhandle.js": {
+            "name": "transform\\transformhandle.js",
+            "modules": {
+                "transform": 1
+            },
+            "classes": {
+                "TransformHandle": 1
+            },
+            "fors": {},
+            "namespaces": {}
+        },
+        "transform\\transformresize.js": {
+            "name": "transform\\transformresize.js",
+            "modules": {},
+            "classes": {
+                "TransformResize": 1
+            },
+            "fors": {},
+            "namespaces": {}
+        },
+        "transform\\transformrotate.js": {
+            "name": "transform\\transformrotate.js",
+            "modules": {},
+            "classes": {
+                "TransformRotate": 1
+            },
+            "fors": {},
+            "namespaces": {}
+        },
+        "trim\\trim.js": {
+            "name": "trim\\trim.js",
+            "modules": {
+                "trim": 1
+            },
+            "classes": {
+                "Trim": 1
+            },
+            "fors": {},
+            "namespaces": {}
+        },
+        "trim\\trimhandle.js": {
+            "name": "trim\\trimhandle.js",
+            "modules": {},
+            "classes": {
+                "TrimHandle": 1
+            },
+            "fors": {},
+            "namespaces": {}
+        },
+        "uploader\\uploaderhtml5.js": {
+            "name": "uploader\\uploaderhtml5.js",
+            "modules": {
+                "uploader": 1
+            },
+            "classes": {
+                "UploaderHTML5": 1
+            },
+            "fors": {},
+            "namespaces": {}
+        },
+        "validate\\validation.js": {
+            "name": "validate\\validation.js",
+            "modules": {},
+            "classes": {
+                "Validation": 1
+            },
+            "fors": {},
+            "namespaces": {}
+        }
+    },
+    "modules": {
+        "App": {
+            "name": "App",
+            "submodules": {},
+            "classes": {},
+            "fors": {},
+            "namespaces": {},
+            "tag": "module",
+            "file": "app\\app.js",
+            "line": 1,
+            "description": "Appのトップレベルオブジェクト\n\n<p>Christian Johansen(著),長尾高弘(翻訳)『テスト駆動JavaScript』ASCII\n下記サイトで配布されているスクリプトを変更。</p>\n<p>http://tddjs.com/</p>"
+        },
+        "filtering": {
+            "name": "filtering",
+            "submodules": {},
+            "classes": {
+                "Boundary": 1,
+                "Filter": 1,
+                "Handle": 1,
+                "PointFilter": 1,
+                "Scan": 1,
+                "SpatialFilter": 1
+            },
+            "fors": {},
+            "namespaces": {},
+            "tag": "module",
+            "file": "filtering\\spatialfilter.js",
+            "line": 7,
+            "description": "モジュールfilteringはCanvasのフィルタ処理を提供する"
+        },
+        "graphic": {
+            "name": "graphic",
+            "submodules": {},
+            "classes": {
+                "Graphic": 1
+            },
+            "fors": {},
+            "namespaces": {},
+            "tag": "module",
+            "file": "graphic\\graphic.js",
+            "line": 7,
+            "description": "モジュールgraphicは処理対象HTMLCanvasElement, CanvasRenderingContext2Dの管理を提供する"
+        },
+        "original": {
+            "name": "original",
+            "submodules": {},
+            "classes": {
+                "Original": 1
+            },
+            "fors": {},
+            "namespaces": {},
+            "tag": "module",
+            "file": "original\\original.js",
+            "line": 7,
+            "description": "モジュールoriginalはオリジナルのImageDataを提供する"
+        },
+        "image": {
+            "name": "image",
+            "submodules": {
+                "text": 1,
+                "transform": 1,
+                "trim": 1
+            },
+            "classes": {
+                "Text": 1,
+                "TextHandle": 1,
+                "TransformHandle": 1,
+                "TransformResize": 1,
+                "TransformRotate": 1,
+                "Trim": 1,
+                "TrimHandle": 1
+            },
+            "fors": {},
+            "namespaces": {},
+            "file": "trim\\trimhandle.js",
+            "line": 8
+        },
+        "text": {
+            "name": "text",
+            "submodules": {},
+            "classes": {
+                "Text": 1,
+                "TextHandle": 1
+            },
+            "fors": {},
+            "is_submodule": 1,
+            "namespaces": {},
+            "module": "image",
+            "namespace": "",
+            "file": "text\\texthandle.js",
+            "line": 8,
+            "description": "サブモジュールtextはテキストをcanvasへ描画するための一連の処理を提供する"
+        },
+        "transform": {
+            "name": "transform",
+            "submodules": {},
+            "classes": {
+                "TransformHandle": 1,
+                "TransformResize": 1,
+                "TransformRotate": 1
+            },
+            "fors": {},
+            "is_submodule": 1,
+            "namespaces": {},
+            "module": "image",
+            "namespace": "",
+            "file": "transform\\transformrotate.js",
+            "line": 8,
+            "description": "サブモジュールtransformはcanvasをアフィン変換する処理を提供する"
+        },
+        "trim": {
+            "name": "trim",
+            "submodules": {},
+            "classes": {
+                "Trim": 1,
+                "TrimHandle": 1
+            },
+            "fors": {},
+            "is_submodule": 1,
+            "namespaces": {},
+            "module": "image",
+            "namespace": "",
+            "file": "trim\\trimhandle.js",
+            "line": 8,
+            "description": "サブモジュールtrimはcanvas画像のトリミング処理を提供する"
+        },
+        "client": {
+            "name": "client",
+            "submodules": {
+                "uploader": 1
+            },
+            "classes": {
+                "UploaderHTML5": 1,
+                "Validation": 1
+            },
+            "fors": {},
+            "namespaces": {},
+            "file": "validate\\validation.js",
+            "line": 1
+        },
+        "uploader": {
+            "name": "uploader",
+            "submodules": {},
+            "classes": {
+                "UploaderHTML5": 1,
+                "Validation": 1
+            },
+            "fors": {},
+            "is_submodule": 1,
+            "namespaces": {},
+            "module": "client",
+            "namespace": "",
+            "file": "validate\\validation.js",
+            "line": 1,
+            "description": "画像アップロード処理"
+        }
+    },
+    "classes": {
+        "Boundary": {
+            "name": "Boundary",
+            "shortname": "Boundary",
+            "classitems": [],
+            "plugins": [],
+            "extensions": [],
+            "plugin_for": [],
+            "extension_for": [],
+            "module": "filtering",
+            "namespace": "",
+            "file": "filtering\\boundary.js",
+            "line": 7,
+            "description": "空間フィルターの境界処理を提供する"
+        },
+        "Filter": {
+            "name": "Filter",
+            "shortname": "Filter",
+            "classitems": [],
+            "plugins": [],
+            "extensions": [],
+            "plugin_for": [],
+            "extension_for": [],
+            "module": "filtering",
+            "namespace": "",
+            "file": "filtering\\filter.js",
+            "line": 7,
+            "description": "フィルター処理を提供する"
+        },
+        "Handle": {
+            "name": "Handle",
+            "shortname": "Handle",
+            "classitems": [],
+            "plugins": [],
+            "extensions": [],
+            "plugin_for": [],
+            "extension_for": [],
+            "module": "filtering",
+            "namespace": "",
+            "file": "filtering\\handle.js",
+            "line": 7,
+            "description": "イベントハンドラ集"
+        },
+        "PointFilter": {
+            "name": "PointFilter",
+            "shortname": "PointFilter",
+            "classitems": [],
+            "plugins": [],
+            "extensions": [],
+            "plugin_for": [],
+            "extension_for": [],
+            "module": "filtering",
+            "namespace": "",
+            "file": "filtering\\pointfilter.js",
+            "line": 7,
+            "description": "点フィルター処理を提供する\n点フィルターは空間フィルターに対して便宜上点(point)と呼ぶ。"
+        },
+        "Scan": {
+            "name": "Scan",
+            "shortname": "Scan",
+            "classitems": [],
+            "plugins": [],
+            "extensions": [],
+            "plugin_for": [],
+            "extension_for": [],
+            "module": "filtering",
+            "namespace": "",
+            "file": "filtering\\scan.js",
+            "line": 7,
+            "description": "画像の全ピクセルを走査しピクセルごとにフィルター処理(Filter.run)を呼び出す"
+        },
+        "SpatialFilter": {
+            "name": "SpatialFilter",
+            "shortname": "SpatialFilter",
+            "classitems": [],
+            "plugins": [],
+            "extensions": [],
+            "plugin_for": [],
+            "extension_for": [],
+            "module": "filtering",
+            "namespace": "",
+            "file": "filtering\\spatialfilter.js",
+            "line": 7,
+            "description": "空間フィルター処理を提供する"
+        },
+        "Graphic": {
+            "name": "Graphic",
+            "shortname": "Graphic",
+            "classitems": [],
+            "plugins": [],
+            "extensions": [],
+            "plugin_for": [],
+            "extension_for": [],
+            "module": "graphic",
+            "namespace": "",
+            "file": "graphic\\graphic.js",
+            "line": 7,
+            "description": "処理対象のHTMLCanvasElement, CanvasRenderingContext2D"
+        },
+        "Original": {
+            "name": "Original",
+            "shortname": "Original",
+            "classitems": [],
+            "plugins": [],
+            "extensions": [],
+            "plugin_for": [],
+            "extension_for": [],
+            "module": "original",
+            "namespace": "",
+            "file": "original\\original.js",
+            "line": 7,
+            "description": "クラスOriginalは画像編集の元画像を管理する"
+        },
+        "Text": {
+            "name": "Text",
+            "shortname": "Text",
+            "classitems": [],
+            "plugins": [],
+            "extensions": [],
+            "plugin_for": [],
+            "extension_for": [],
+            "module": "image",
+            "submodule": "text",
+            "namespace": "",
+            "file": "text\\text.js",
+            "line": 8,
+            "description": "Textクラスはテキストをcanvasへ描画する処理を提供する"
+        },
+        "TextHandle": {
+            "name": "TextHandle",
+            "shortname": "TextHandle",
+            "classitems": [],
+            "plugins": [],
+            "extensions": [],
+            "plugin_for": [],
+            "extension_for": [],
+            "module": "image",
+            "submodule": "text",
+            "namespace": "",
+            "file": "text\\texthandle.js",
+            "line": 8,
+            "description": "TextHandleクラスはcanvasのテキスト処理ハンドル集"
+        },
+        "TransformHandle": {
+            "name": "TransformHandle",
+            "shortname": "TransformHandle",
+            "classitems": [],
+            "plugins": [],
+            "extensions": [],
+            "plugin_for": [],
+            "extension_for": [],
+            "module": "image",
+            "submodule": "transform",
+            "namespace": "",
+            "file": "transform\\transformhandle.js",
+            "line": 8,
+            "description": "TransformHandleクラスはcanvasをアフィン変換するイベントハンドル集"
+        },
+        "TransformResize": {
+            "name": "TransformResize",
+            "shortname": "TransformResize",
+            "classitems": [],
+            "plugins": [],
+            "extensions": [],
+            "plugin_for": [],
+            "extension_for": [],
+            "module": "image",
+            "submodule": "transform",
+            "namespace": "",
+            "file": "transform\\transformresize.js",
+            "line": 8,
+            "description": "TransformResizeはcanvasをリサイズする処理を提供する"
+        },
+        "TransformRotate": {
+            "name": "TransformRotate",
+            "shortname": "TransformRotate",
+            "classitems": [],
+            "plugins": [],
+            "extensions": [],
+            "plugin_for": [],
+            "extension_for": [],
+            "module": "image",
+            "submodule": "transform",
+            "namespace": "",
+            "file": "transform\\transformrotate.js",
+            "line": 8,
+            "description": "TransformRotateはcanvasを回転する"
+        },
+        "Trim": {
+            "name": "Trim",
+            "shortname": "Trim",
+            "classitems": [],
+            "plugins": [],
+            "extensions": [],
+            "plugin_for": [],
+            "extension_for": [],
+            "module": "image",
+            "submodule": "trim",
+            "namespace": "",
+            "file": "trim\\trim.js",
+            "line": 8,
+            "description": "Trimクラスはcanvasをトリミングする処理を提供する"
+        },
+        "TrimHandle": {
+            "name": "TrimHandle",
+            "shortname": "TrimHandle",
+            "classitems": [],
+            "plugins": [],
+            "extensions": [],
+            "plugin_for": [],
+            "extension_for": [],
+            "module": "image",
+            "submodule": "trim",
+            "namespace": "",
+            "file": "trim\\trimhandle.js",
+            "line": 8,
+            "description": "クラスTrimHandleはcanvasをトリム処理するイベントハンドル群"
+        },
+        "UploaderHTML5": {
+            "name": "UploaderHTML5",
+            "shortname": "UploaderHTML5",
+            "classitems": [],
+            "plugins": [],
+            "extensions": [],
+            "plugin_for": [],
+            "extension_for": [],
+            "module": "client",
+            "submodule": "uploader",
+            "namespace": "",
+            "file": "uploader\\uploaderhtml5.js",
+            "line": 1,
+            "description": "画像アップロード処理"
+        },
+        "Validation": {
+            "name": "Validation",
+            "shortname": "Validation",
+            "classitems": [],
+            "plugins": [],
+            "extensions": [],
+            "plugin_for": [],
+            "extension_for": [],
+            "module": "client",
+            "submodule": "uploader",
+            "namespace": "",
+            "file": "validate\\validation.js",
+            "line": 1,
+            "description": "HTML5 uploader 入力チェック"
+        }
+    },
+    "classitems": [
+        {
+            "file": "app\\app.js",
+            "line": 11,
+            "description": "名前空間を設定・管理する。\n\n<p>引数に対応する既存のオブジェクトが存在するときは\nそのオブジェクトを返す。存在しないときは空のオブジェクト作成・登録してして返す。</p>",
+            "params": [
+                {
+                    "name": "name",
+                    "description": "オブジェクト名",
+                    "type": "String"
+                }
+            ],
+            "return": {
+                "description": "引数にマップされたオブジェクト",
+                "type": "Object"
+            },
+            "class": "Boundary",
+            "module": "App"
+        },
+        {
+            "file": "app\\app.js",
+            "line": 21,
+            "description": "名前空間の管理",
+            "itemtype": "method",
+            "name": "名前空間管理",
+            "type": "{namespace}",
+            "class": "Boundary",
+            "module": "App"
+        },
+        {
+            "file": "filtering\\boundary.js",
+            "line": 19,
+            "description": "境界処理\n\n境界で近傍のピクセルがないときは対角のピクセルを処理する。そのためのカウンタを返す\n境界処理は左上端, 左下端, 右上端, 右下端, 左端、右端、上端、下端で処理を分ける。",
+            "itemtype": "method",
+            "name": "expandedIndex",
+            "params": [
+                {
+                    "name": "k",
+                    "description": "注目ピクセルのRGBAのRed値インデックス",
+                    "type": "Number"
+                },
+                {
+                    "name": "i",
+                    "description": "空間フィルターの行方向カウンタ",
+                    "type": "Number"
+                },
+                {
+                    "name": "j",
+                    "description": "空間フィルターの列方向カウンタ",
+                    "type": "Number"
+                },
+                {
+                    "name": "imageData",
+                    "description": "処理対象のImageData",
+                    "type": "ImageData"
+                }
+            ],
+            "return": {
+                "description": "",
+                "type": "Object"
+            },
+            "class": "Boundary",
+            "module": "filtering"
+        },
+        {
+            "file": "filtering\\filter.js",
+            "line": 22,
+            "description": "フィルター処理",
+            "itemtype": "method",
+            "name": "run",
+            "params": [
+                {
+                    "name": "name",
+                    "description": "filter name",
+                    "type": "String"
+                },
+                {
+                    "name": "k",
+                    "description": "ImageData.dataの処理rgbaのred値に対応するインデックス<br>",
+                    "type": "Number"
+                },
+                {
+                    "name": "imageData",
+                    "description": ""
+                }
+            ],
+            "return": {
+                "description": "rgbaの値を格納したオブジェクト。フィルターがないときはfalseを返す。",
+                "type": "Object | Boolean"
+            },
+            "class": "Filter",
+            "module": "filtering"
+        },
+        {
+            "file": "filtering\\handle.js",
+            "line": 21,
+            "description": "フィルターハンドラ\n\n1. process.initで処理対象のImageDataを設定する\n2. ImageDataをprocess.runへ投げる。\n3. 戻り値としてフィルタ処理後のピクセル配列を受け取る。\n4. ピクセル配列をImageDataにセットしてImageDataをCanvasへ描画する。",
+            "itemtype": "method",
+            "name": "button.click",
+            "access": "private",
+            "tagname": "",
+            "class": "Handle",
+            "module": "filtering"
+        },
+        {
+            "file": "filtering\\pointfilter.js",
+            "line": 21,
+            "description": "フィルター定義",
+            "itemtype": "property",
+            "name": "filters",
+            "access": "private",
+            "tagname": "",
+            "type": "Object",
+            "class": "PointFilter",
+            "module": "filtering"
+        },
+        {
+            "file": "filtering\\pointfilter.js",
+            "line": 30,
+            "description": "反転",
+            "itemtype": "method",
+            "name": "filters.reverse",
+            "access": "private",
+            "tagname": "",
+            "params": [
+                {
+                    "name": "k",
+                    "description": "注目ピクセルのRed値に対応するImageData.dataのインデックス<br>\n    green k + 1<br>\n    blue  k + 2<br>\n    alpha k + 3",
+                    "type": "Number"
+                },
+                {
+                    "name": "imageData",
+                    "description": "",
+                    "type": "ImageObject"
+                }
+            ],
+            "return": {
+                "description": "rgbaの値を格納したオブジェクト",
+                "type": "Object"
+            },
+            "class": "PointFilter",
+            "module": "filtering"
+        },
+        {
+            "file": "filtering\\pointfilter.js",
+            "line": 50,
+            "description": "2値画像フィルター\n\n注目ピクセルの近傍を使わないフィルター。",
+            "itemtype": "method",
+            "name": "filters.mono",
+            "access": "private",
+            "tagname": "",
+            "params": [
+                {
+                    "name": "k",
+                    "description": "注目ピクセルのRed値に対応するImageData.dataのインデックス<br>\n    green k + 1<br>\n    blue  k + 2<br>\n    alpha k + 3",
+                    "type": "Number"
+                },
+                {
+                    "name": "imageData",
+                    "description": "",
+                    "type": "ImageObject"
+                }
+            ],
+            "return": {
+                "description": "rgbaの値を格納したオブジェクト",
+                "type": "Object"
+            },
+            "class": "PointFilter",
+            "module": "filtering"
+        },
+        {
+            "file": "filtering\\pointfilter.js",
+            "line": 74,
+            "description": "グレースケール(NTSC系加重平均法)",
+            "itemtype": "method",
+            "name": "filters.grayscale",
+            "access": "private",
+            "tagname": "",
+            "params": [
+                {
+                    "name": "k",
+                    "description": "注目ピクセルのRed値に対応するImageData.dataのインデックス<br>\n    green k + 1<br>\n    blue  k + 2<br>\n    alpha k + 3",
+                    "type": "Number"
+                },
+                {
+                    "name": "imageData",
+                    "description": "",
+                    "type": "ImageData"
+                }
+            ],
+            "return": {
+                "description": "rgbaの値を格納したオブジェクト",
+                "type": "Object"
+            },
+            "see": [
+                "http://www40.atwiki.jp/spellbound/pages/172.html"
+            ],
+            "class": "PointFilter",
+            "module": "filtering"
+        },
+        {
+            "file": "filtering\\pointfilter.js",
+            "line": 95,
+            "description": "グレースケール(単純平均)",
+            "itemtype": "method",
+            "name": "filters.simpleGrayscale.",
+            "access": "private",
+            "tagname": "",
+            "params": [
+                {
+                    "name": "k",
+                    "description": "注目ピクセルのRed値に対応するImageData.dataのインデックス<br>\n    green k + 1<br>\n    blue  k + 2<br>\n    alpha k + 3",
+                    "type": "Number"
+                },
+                {
+                    "name": "imageData",
+                    "description": "",
+                    "type": "ImageData"
+                }
+            ],
+            "return": {
+                "description": "rgbaの値を格納したオブジェクト",
+                "type": "Object"
+            },
+            "class": "PointFilter",
+            "module": "filtering"
+        },
+        {
+            "file": "filtering\\pointfilter.js",
+            "line": 115,
+            "description": "sepia セピア調",
+            "itemtype": "method",
+            "name": "filters.sepia.",
+            "access": "private",
+            "tagname": "",
+            "params": [
+                {
+                    "name": "k",
+                    "description": "注目ピクセルのRed値に対応するImageData.dataのインデックス<br>\n    green k + 1<br>\n    blue  k + 2<br>\n    alpha k + 3",
+                    "type": "Number"
+                },
+                {
+                    "name": "imageData",
+                    "description": "",
+                    "type": "ImageData"
+                }
+            ],
+            "return": {
+                "description": "rgbaの値を格納したオブジェクト",
+                "type": "Object"
+            },
+            "see": [
+                "http://www40.atwiki.jp/spellbound/pages/172.html"
+            ],
+            "class": "PointFilter",
+            "module": "filtering"
+        },
+        {
+            "file": "filtering\\pointfilter.js",
+            "line": 136,
+            "description": "赤を増やす",
+            "itemtype": "method",
+            "name": "filters.red",
+            "access": "private",
+            "tagname": "",
+            "params": [
+                {
+                    "name": "k",
+                    "description": "注目ピクセルのRed値に対応するImageData.dataのインデックス<br>\n    green k + 1<br>\n    blue  k + 2<br>\n    alpha k + 3",
+                    "type": "Number"
+                },
+                {
+                    "name": "imageData",
+                    "description": "",
+                    "type": "ImageObject"
+                }
+            ],
+            "return": {
+                "description": "rgbaの値を格納したオブジェクト",
+                "type": "Object"
+            },
+            "class": "PointFilter",
+            "module": "filtering"
+        },
+        {
+            "file": "filtering\\pointfilter.js",
+            "line": 158,
+            "description": "グリーンを増やす",
+            "itemtype": "method",
+            "name": "filters.green",
+            "access": "private",
+            "tagname": "",
+            "params": [
+                {
+                    "name": "k",
+                    "description": "注目ピクセルのRed値に対応するImageData.dataのインデックス<br>\n    green k + 1<br>\n    blue  k + 2<br>\n    alpha k + 3",
+                    "type": "Number"
+                },
+                {
+                    "name": "imageData",
+                    "description": "",
+                    "type": "ImageObject"
+                }
+            ],
+            "return": {
+                "description": "rgbaの値を格納したオブジェクト",
+                "type": "Object"
+            },
+            "class": "PointFilter",
+            "module": "filtering"
+        },
+        {
+            "file": "filtering\\pointfilter.js",
+            "line": 180,
+            "description": "青を増やす",
+            "itemtype": "method",
+            "name": "filters.blue",
+            "access": "private",
+            "tagname": "",
+            "params": [
+                {
+                    "name": "k",
+                    "description": "注目ピクセルのRed値に対応するImageData.dataのインデックス<br>\n    green k + 1<br>\n    blue  k + 2<br>\n    alpha k + 3",
+                    "type": "Number"
+                },
+                {
+                    "name": "imageData",
+                    "description": "",
+                    "type": "ImageObject"
+                }
+            ],
+            "return": {
+                "description": "rgbaの値を格納したオブジェクト",
+                "type": "Object"
+            },
+            "class": "PointFilter",
+            "module": "filtering"
+        },
+        {
+            "file": "filtering\\pointfilter.js",
+            "line": 202,
+            "description": "フィルターの存在を確認",
+            "itemtype": "method",
+            "name": "is",
+            "params": [
+                {
+                    "name": "name",
+                    "description": "filter name",
+                    "type": "String"
+                }
+            ],
+            "return": {
+                "description": "フィルターがあればtrue、フィルターがないときはfalse",
+                "type": "Boolean"
+            },
+            "class": "PointFilter",
+            "module": "filtering"
+        },
+        {
+            "file": "filtering\\pointfilter.js",
+            "line": 215,
+            "description": "フィルター呼び出し処理",
+            "itemtype": "method",
+            "name": "perform",
+            "access": "private",
+            "tagname": "",
+            "params": [
+                {
+                    "name": "name",
+                    "description": "filter name",
+                    "type": "String"
+                },
+                {
+                    "name": "k",
+                    "description": "ImageData.dataの処理rgbaのred値に対応するインデックス<br>",
+                    "type": "Number"
+                },
+                {
+                    "name": "imageData",
+                    "description": "",
+                    "type": "ImageData"
+                }
+            ],
+            "return": {
+                "description": "rgbaの値を格納したオブジェクト",
+                "type": "Object"
+            },
+            "class": "PointFilter",
+            "module": "filtering"
+        },
+        {
+            "file": "filtering\\pointfilter.js",
+            "line": 228,
+            "description": "フィルター処理",
+            "itemtype": "method",
+            "name": "run",
+            "params": [
+                {
+                    "name": "name",
+                    "description": "filter name (mono | grayscale | smooth | mean 加重平均 | sharpen)",
+                    "type": "String"
+                },
+                {
+                    "name": "k",
+                    "description": "ImageData.dataの処理rgbaのred値に対応するインデックス<br>",
+                    "type": "Number"
+                },
+                {
+                    "name": "imageData",
+                    "description": ""
+                }
+            ],
+            "return": {
+                "description": "rgbaの値を格納したオブジェクト",
+                "type": "Object"
+            },
+            "class": "PointFilter",
+            "module": "filtering"
+        },
+        {
+            "file": "filtering\\scan.js",
+            "line": 22,
+            "description": "フィルター処理結果のRGBAデータ配列を返すを返す",
+            "itemtype": "method",
+            "name": "run",
+            "params": [
+                {
+                    "name": "name",
+                    "description": "filter name(mono | grayscale | smooth)",
+                    "type": "String"
+                }
+            ],
+            "class": "Scan",
+            "module": "filtering"
+        },
+        {
+            "file": "filtering\\scan.js",
+            "line": 46,
+            "description": "初期化\n\n処理対象のImageDataを設定する",
+            "itemtype": "method",
+            "name": "init",
+            "params": [
+                {
+                    "name": "targetImageData",
+                    "description": "",
+                    "type": "ImageData"
+                }
+            ],
+            "class": "Scan",
+            "module": "filtering"
+        },
+        {
+            "file": "filtering\\spatialfilter.js",
+            "line": 21,
+            "description": "空間フィルターのオペレーター",
+            "itemtype": "property",
+            "name": "operator",
+            "access": "private",
+            "tagname": "",
+            "type": "{Object}",
+            "class": "SpatialFilter",
+            "module": "filtering"
+        },
+        {
+            "file": "filtering\\spatialfilter.js",
+            "line": 40,
+            "description": "空間フィルター",
+            "itemtype": "method",
+            "name": "spatial",
+            "params": [
+                {
+                    "name": "k",
+                    "description": "注目ピクセルのRed値に対応するImageData.dataのインデックス<br>\n    green k + 1<br>\n    blue  k + 2<br>\n    alpha k + 3",
+                    "type": "Number"
+                },
+                {
+                    "name": "imageData",
+                    "description": ""
+                },
+                {
+                    "name": "name",
+                    "description": "filter name"
+                }
+            ],
+            "return": {
+                "description": "",
+                "type": "Object"
+            },
+            "class": "SpatialFilter",
+            "module": "filtering"
+        },
+        {
+            "file": "filtering\\spatialfilter.js",
+            "line": 73,
+            "description": "フィルターの存在を確認",
+            "itemtype": "method",
+            "name": "is",
+            "params": [
+                {
+                    "name": "name",
+                    "description": "filter name",
+                    "type": "String"
+                }
+            ],
+            "return": {
+                "description": "フィルターがあればtrue、フィルターがないときはfalse",
+                "type": "Boolean"
+            },
+            "class": "SpatialFilter",
+            "module": "filtering"
+        },
+        {
+            "file": "filtering\\spatialfilter.js",
+            "line": 86,
+            "description": "フィルター処理の呼び出し",
+            "itemtype": "method",
+            "name": "run",
+            "params": [
+                {
+                    "name": "name",
+                    "description": "filter name (mono | grayscale | smooth | mean 加重平均 | sharpen)",
+                    "type": "String"
+                },
+                {
+                    "name": "k",
+                    "description": "ImageData.dataの処理rgbaのred値に対応するインデックス<br>",
+                    "type": "Number"
+                },
+                {
+                    "name": "imageData",
+                    "description": ""
+                }
+            ],
+            "return": {
+                "description": "rgbaの値を格納したオブジェクト",
+                "type": "Object"
+            },
+            "class": "SpatialFilter",
+            "module": "filtering"
+        },
+        {
+            "file": "graphic\\graphic.js",
+            "line": 19,
+            "description": "canvas",
+            "itemtype": "property",
+            "name": "canvas",
+            "access": "private",
+            "tagname": "",
+            "type": "HHTMLCanvasElement",
+            "class": "Graphic",
+            "module": "graphic"
+        },
+        {
+            "file": "graphic\\graphic.js",
+            "line": 29,
+            "description": "canvas",
+            "itemtype": "method",
+            "name": "setCanvas",
+            "params": [
+                {
+                    "name": "srcCanvas",
+                    "description": "",
+                    "type": "HTMLCanvasElement"
+                }
+            ],
+            "class": "Graphic",
+            "module": "graphic"
+        },
+        {
+            "file": "graphic\\graphic.js",
+            "line": 39,
+            "description": "処理対象canvas取得",
+            "itemtype": "method",
+            "name": "getCanvas",
+            "access": "private",
+            "tagname": "",
+            "return": {
+                "description": "",
+                "type": "HTMLCanvasElement"
+            },
+            "class": "Graphic",
+            "module": "graphic"
+        },
+        {
+            "file": "graphic\\graphic.js",
+            "line": 50,
+            "description": "context\n\ngetContext('2d')で取得したオブジェクト",
+            "itemtype": "property",
+            "name": "ctx",
+            "access": "private",
+            "tagname": "",
+            "type": "{CanvasRenderingContext2D}",
+            "class": "Graphic",
+            "module": "graphic"
+        },
+        {
+            "file": "graphic\\graphic.js",
+            "line": 62,
+            "description": "処理対象CanvasRenderingContext2D設定",
+            "itemtype": "method",
+            "name": "setContext",
+            "params": [
+                {
+                    "name": "context",
+                    "description": "",
+                    "type": "HTMLCanvasElement"
+                }
+            ],
+            "class": "Graphic",
+            "module": "graphic"
+        },
+        {
+            "file": "graphic\\graphic.js",
+            "line": 72,
+            "description": "処理対象CanvasRenderingContext2Dを取得",
+            "itemtype": "method",
+            "name": "getCtx",
+            "access": "private",
+            "tagname": "",
+            "return": {
+                "description": "CanvasRenderingContext2D",
+                "type": "Object"
+            },
+            "class": "Graphic",
+            "module": "graphic"
+        },
+        {
+            "file": "graphic\\graphic.js",
+            "line": 83,
+            "description": "initialize",
+            "itemtype": "method",
+            "name": "",
+            "access": "private",
+            "tagname": "",
+            "class": "Graphic",
+            "module": "graphic"
+        },
+        {
+            "file": "original\\original.js",
+            "line": 24,
+            "description": "元画像のImageData",
+            "itemtype": "property",
+            "name": "imageData",
+            "access": "private",
+            "tagname": "",
+            "type": "{ImageData}",
+            "class": "Original",
+            "module": "original"
+        },
+        {
+            "file": "original\\original.js",
+            "line": 33,
+            "description": "元画像のImageData設定",
+            "itemtype": "method",
+            "name": "setOriginal",
+            "params": [
+                {
+                    "name": "imageData",
+                    "description": "オリジナル画像のImageData",
+                    "type": "ImageData"
+                }
+            ],
+            "class": "Original",
+            "module": "original"
+        },
+        {
+            "file": "original\\original.js",
+            "line": 43,
+            "description": "元画像のImageData取得",
+            "itemtype": "method",
+            "name": "getOriginal",
+            "class": "Original",
+            "module": "original"
+        },
+        {
+            "file": "original\\original.js",
+            "line": 52,
+            "description": "元画像横幅設定",
+            "itemtype": "method",
+            "name": "setOriginalWidth",
+            "access": "private",
+            "tagname": "",
+            "class": "Original",
+            "module": "original"
+        },
+        {
+            "file": "original\\original.js",
+            "line": 62,
+            "description": "元画像縦幅設定",
+            "itemtype": "method",
+            "name": "setOriginalHeight",
+            "access": "private",
+            "tagname": "",
+            "class": "Original",
+            "module": "original"
+        },
+        {
+            "file": "original\\original.js",
+            "line": 72,
+            "description": "イベントハンドラ オリジナルimageData表示",
+            "itemtype": "method",
+            "name": "#original.click",
+            "class": "Original",
+            "module": "original"
+        },
+        {
+            "file": "text\\text.js",
+            "line": 20,
+            "description": "canvasへ描画するテキスト",
+            "itemtype": "property",
+            "name": "text",
+            "access": "private",
+            "tagname": "",
+            "type": "HTMLDivElement",
+            "class": "Text",
+            "module": "image",
+            "submodule": "text"
+        },
+        {
+            "file": "text\\text.js",
+            "line": 29,
+            "description": "テキストツール 入力域, 描画, 削除を持つdiv",
+            "itemtype": "property",
+            "name": "textTool",
+            "access": "private",
+            "tagname": "",
+            "type": "HTMLDivElement",
+            "class": "Text",
+            "module": "image",
+            "submodule": "text"
+        },
+        {
+            "file": "text\\text.js",
+            "line": 38,
+            "description": "テキスト出力域、テキストツール表示",
+            "itemtype": "method",
+            "name": "open",
+            "params": [
+                {
+                    "name": "canvas",
+                    "description": "描画対称のcanvas",
+                    "type": "HTMLCanvasElement"
+                }
+            ],
+            "class": "Text",
+            "module": "image",
+            "submodule": "text"
+        },
+        {
+            "file": "text\\text.js",
+            "line": 68,
+            "description": "テキストレイヤー非表示",
+            "itemtype": "method",
+            "name": "closeLayer",
+            "class": "Text",
+            "module": "image",
+            "submodule": "text"
+        },
+        {
+            "file": "text\\text.js",
+            "line": 82,
+            "description": "要素の親要素に対する相対値を取得",
+            "itemtype": "method",
+            "name": "getPosition",
+            "params": [
+                {
+                    "name": "elem",
+                    "description": "位置を算出する対称",
+                    "type": "JQuery"
+                }
+            ],
+            "return": {
+                "description": "親要素を基準にした相対位置を表すtopとleftを持つオブジェクト",
+                "type": "Object"
+            },
+            "class": "Text",
+            "module": "image",
+            "submodule": "text"
+        },
+        {
+            "file": "text\\text.js",
+            "line": 96,
+            "description": "テキストをcanvasへ描画",
+            "itemtype": "method",
+            "name": "draw",
+            "position": "{Object} 描画位置",
+            "ctx": "{CanvasRenderingContext2D} ctx",
+            "form": "{HTMLFormElement} form",
+            "class": "Text",
+            "module": "image",
+            "submodule": "text"
+        },
+        {
+            "file": "text\\texthandle.js",
+            "line": 21,
+            "description": "テキストレイヤー表示イベントハンドラ",
+            "itemtype": "method",
+            "name": "#show-text.click",
+            "class": "TextHandle",
+            "module": "image",
+            "submodule": "text"
+        },
+        {
+            "file": "text\\texthandle.js",
+            "line": 32,
+            "description": "テキストレイヤー削除イベントハンドラ",
+            "itemtype": "method",
+            "name": "#close-text.click",
+            "class": "TextHandle",
+            "module": "image",
+            "submodule": "text"
+        },
+        {
+            "file": "text\\texthandle.js",
+            "line": 43,
+            "description": "text-inputの入力キーイベントをチェックしtext-outputへ出力する",
+            "itemtype": "method",
+            "name": "",
+            "class": "TextHandle",
+            "module": "image",
+            "submodule": "text"
+        },
+        {
+            "file": "text\\texthandle.js",
+            "line": 54,
+            "description": "draw text",
+            "class": "TextHandle",
+            "module": "image",
+            "submodule": "text"
+        },
+        {
+            "file": "transform\\transformhandle.js",
+            "line": 25,
+            "description": "イベントハンドラ resize",
+            "itemtype": "method",
+            "name": "#image-edit-resize.click",
+            "class": "TransformHandle",
+            "module": "image",
+            "submodule": "transform"
+        },
+        {
+            "file": "transform\\transformhandle.js",
+            "line": 35,
+            "description": "右90度回転",
+            "itemtype": "method",
+            "name": "#image-edit-rotate-right.click",
+            "class": "TransformHandle",
+            "module": "image",
+            "submodule": "transform"
+        },
+        {
+            "file": "transform\\transformhandle.js",
+            "line": 45,
+            "description": "左90度回転",
+            "itemtype": "method",
+            "name": "#image-edit-rotate-left.click",
+            "class": "TransformHandle",
+            "module": "image",
+            "submodule": "transform"
+        },
+        {
+            "file": "transform\\transformresize.js",
+            "line": 26,
+            "description": "リサイズ後の縦横さを返す",
+            "itemtype": "method",
+            "name": "getNoFixSize",
+            "access": "private",
+            "tagname": "",
+            "params": [
+                {
+                    "name": "params",
+                    "description": "key/value pair<br>\n    width: リサイズ前の横幅<br>\n    height: リサイズ後の高さ<br>\n    isRatio: 縦横固定フラグ",
+                    "type": "Object"
+                }
+            ],
+            "return": {
+                "description": "リサイズ後の縦横",
+                "type": "Object"
+            },
+            "class": "TransformResize",
+            "module": "image",
+            "submodule": "transform"
+        },
+        {
+            "file": "transform\\transformresize.js",
+            "line": 65,
+            "description": "リサイズ後の縦横さを返す",
+            "itemtype": "method",
+            "name": "getFixSize",
+            "access": "private",
+            "tagname": "",
+            "return": {
+                "description": "リサイズ後の縦横",
+                "type": "Object"
+            },
+            "class": "TransformResize",
+            "module": "image",
+            "submodule": "transform"
+        },
+        {
+            "file": "transform\\transformresize.js",
+            "line": 81,
+            "description": "画像を拡大・縮小して描画",
+            "itemtype": "method",
+            "name": "draw",
+            "access": "private",
+            "tagname": "",
+            "params": [
+                {
+                    "name": "before",
+                    "description": "リサイズ前の縦・横",
+                    "type": "Object"
+                },
+                {
+                    "name": "after",
+                    "description": "リサイズ後の縦・横",
+                    "type": "Object"
+                }
+            ],
+            "class": "TransformResize",
+            "module": "image",
+            "submodule": "transform"
+        },
+        {
+            "file": "transform\\transformresize.js",
+            "line": 113,
+            "description": "リサイズフィルタの実行",
+            "itemtype": "method",
+            "name": "run",
+            "return": {
+                "description": "処理を失敗したとき",
+                "type": "Boolean"
+            },
+            "class": "TransformResize",
+            "module": "image",
+            "submodule": "transform"
+        },
+        {
+            "file": "transform\\transformrotate.js",
+            "line": 20,
+            "description": "回転",
+            "itemtype": "method",
+            "name": "",
+            "access": "private",
+            "tagname": "",
+            "params": [
+                {
+                    "name": "angle",
+                    "description": "度数",
+                    "type": "Number"
+                },
+                {
+                    "name": "canvas",
+                    "description": "",
+                    "type": "HtmlCanvasElement"
+                },
+                {
+                    "name": "ctx",
+                    "description": "",
+                    "type": "CanvasRenderingContext2D"
+                },
+                {
+                    "name": "img",
+                    "description": "",
+                    "type": "HtmlImageElement"
+                }
+            ],
+            "class": "TransformRotate",
+            "module": "image",
+            "submodule": "transform"
+        },
+        {
+            "file": "trim\\trim.js",
+            "line": 20,
+            "description": "選択範囲表示",
+            "itemtype": "method",
+            "name": "openSelection",
+            "params": [
+                {
+                    "name": "form",
+                    "description": "対象form",
+                    "type": "JQuery"
+                }
+            ],
+            "class": "Trim",
+            "module": "image",
+            "submodule": "trim"
+        },
+        {
+            "file": "trim\\trim.js",
+            "line": 34,
+            "description": "選択範囲削除",
+            "itemtype": "method",
+            "name": "closeSelection",
+            "params": [
+                {
+                    "name": "form",
+                    "description": "対象form",
+                    "type": "JQuery"
+                }
+            ],
+            "class": "Trim",
+            "module": "image",
+            "submodule": "trim"
+        },
+        {
+            "file": "trim\\trim.js",
+            "line": 44,
+            "description": "選択範囲変更",
+            "itemtype": "method",
+            "name": "resizeSelection",
+            "params": [
+                {
+                    "name": "form",
+                    "description": "対象form",
+                    "type": "JQuery"
+                }
+            ],
+            "class": "Trim",
+            "module": "image",
+            "submodule": "trim"
+        },
+        {
+            "file": "trim\\trim.js",
+            "line": 55,
+            "description": "トリムエリア横幅設定",
+            "itemtype": "method",
+            "name": "setWidth",
+            "params": [
+                {
+                    "name": "target",
+                    "description": "HTMLInputElement"
+                },
+                {
+                    "name": "form",
+                    "description": "対象form",
+                    "type": "JQuery"
+                }
+            ],
+            "class": "Trim",
+            "module": "image",
+            "submodule": "trim"
+        },
+        {
+            "file": "trim\\trim.js",
+            "line": 81,
+            "description": "トリムエリア縦幅設定",
+            "itemtype": "method",
+            "name": "setHeight",
+            "params": [
+                {
+                    "name": "target",
+                    "description": "HTMLInputElement"
+                },
+                {
+                    "name": "form",
+                    "description": "対象form",
+                    "type": "JQuery"
+                }
+            ],
+            "class": "Trim",
+            "module": "image",
+            "submodule": "trim"
+        },
+        {
+            "file": "trim\\trim.js",
+            "line": 107,
+            "description": "トリミング処理",
+            "itemtype": "method",
+            "name": "run",
+            "params": [
+                {
+                    "name": "canvas",
+                    "description": "対象canvas",
+                    "type": "HTMLCanvasElement"
+                },
+                {
+                    "name": "ctx",
+                    "description": "対象context",
+                    "type": "CanvasRenderingContext2D"
+                },
+                {
+                    "name": "form",
+                    "description": "対象form",
+                    "type": "JQuery"
+                }
+            ],
+            "return": {
+                "description": "",
+                "type": "Function"
+            },
+            "class": "Trim",
+            "module": "image",
+            "submodule": "trim"
+        },
+        {
+            "file": "trim\\trimhandle.js",
+            "line": 22,
+            "description": "イベントハンドラ トリムエリア表示",
+            "itemtype": "method",
+            "name": "#open-trim-selection.click.",
+            "class": "TrimHandle",
+            "module": "image",
+            "submodule": "trim"
+        },
+        {
+            "file": "trim\\trimhandle.js",
+            "line": 32,
+            "description": "イベントハンドラ トリムエリア削除",
+            "itemtype": "method",
+            "name": "#trim-height.click.",
+            "class": "TrimHandle",
+            "module": "image",
+            "submodule": "trim"
+        },
+        {
+            "file": "trim\\trimhandle.js",
+            "line": 42,
+            "description": "イベントハンドラ 選択範囲の変更に応じて縦・横を表示\n\n選択範囲(.trim-selection要素)を変更したとき発生する。\ntriggerでも呼び出すのでbindを使う。",
+            "itemtype": "method",
+            "name": ".trim-selection.bind",
+            "class": "TrimHandle",
+            "module": "image",
+            "submodule": "trim"
+        },
+        {
+            "file": "trim\\trimhandle.js",
+            "line": 55,
+            "description": "イベントハンドラ トリムエリア横幅",
+            "itemtype": "method",
+            "name": "#image-edit-trim-width.keyup.",
+            "class": "TrimHandle",
+            "module": "image",
+            "submodule": "trim"
+        },
+        {
+            "file": "trim\\trimhandle.js",
+            "line": 65,
+            "description": "イベントハンドラ トリムエリア縦幅",
+            "itemtype": "method",
+            "name": "#trim-height.keyup.",
+            "class": "TrimHandle",
+            "module": "image",
+            "submodule": "trim"
+        },
+        {
+            "file": "trim\\trimhandle.js",
+            "line": 75,
+            "description": "イベントハンドラトリミング実行",
+            "itemtype": "method",
+            "name": "#image-edit-trim.click",
+            "class": "TrimHandle",
+            "module": "image",
+            "submodule": "trim"
+        },
+        {
+            "file": "uploader\\uploaderhtml5.js",
+            "line": 22,
+            "description": "圧縮方式のチェック\n\npng, jpegならばtrue。対応していないタイプならばアラートを表示してfalseを返す",
+            "itemtype": "method",
+            "name": "checkFormat",
+            "params": [
+                {
+                    "name": "format",
+                    "description": "画像フォーマット",
+                    "type": "String"
+                }
+            ],
+            "return": {
+                "description": "",
+                "type": "Boolean"
+            },
+            "class": "UploaderHTML5",
+            "module": "client",
+            "submodule": "uploader"
+        },
+        {
+            "file": "uploader\\uploaderhtml5.js",
+            "line": 38,
+            "description": "imgの画像データーをcanvasへ描画",
+            "access": "private",
+            "tagname": "",
+            "itemtype": "method",
+            "name": "imgToCanvas",
+            "params": [
+                {
+                    "name": "img",
+                    "description": "canvasへ描画するimg要素",
+                    "type": "HTMLImgElement"
+                }
+            ],
+            "class": "UploaderHTML5",
+            "module": "client",
+            "submodule": "uploader"
+        },
+        {
+            "file": "uploader\\uploaderhtml5.js",
+            "line": 64,
+            "description": "画像読込",
+            "access": "private",
+            "tagname": "",
+            "itemtype": "method",
+            "name": "readFile",
+            "params": [
+                {
+                    "name": "reader!~YUIDOC_LINE~!reader{FileReader}:",
+                    "description": "reader<br>\nimg: img",
+                    "type": "Object"
+                }
+            ],
+            "class": "UploaderHTML5",
+            "module": "client",
+            "submodule": "uploader"
+        },
+        {
+            "file": "uploader\\uploaderhtml5.js",
+            "line": 83,
+            "description": "画像ファイル描画",
+            "access": "private",
+            "tagname": "",
+            "itemtype": "method",
+            "name": "drawFile",
+            "params": [
+                {
+                    "name": "file",
+                    "description": "",
+                    "type": "Object"
+                }
+            ],
+            "class": "UploaderHTML5",
+            "module": "client",
+            "submodule": "uploader"
+        },
+        {
+            "file": "uploader\\uploaderhtml5.js",
+            "line": 97,
+            "description": "イベントハンドラ 参照ボタンで読込処理",
+            "itemtype": "method",
+            "name": ".image.live",
+            "class": "UploaderHTML5",
+            "module": "client",
+            "submodule": "uploader"
+        },
+        {
+            "file": "uploader\\uploaderhtml5.js",
+            "line": 111,
+            "description": "ドラッグイベントのdefault処理をキャンセルする為にfalseを返す",
+            "class": "UploaderHTML5",
+            "module": "client",
+            "submodule": "uploader"
+        },
+        {
+            "file": "uploader\\uploaderhtml5.js",
+            "line": 118,
+            "description": "ドラッグアンドドロップ読込ハンドラ",
+            "access": "private",
+            "tagname": "",
+            "itemtype": "method",
+            "name": "",
+            "class": "UploaderHTML5",
+            "module": "client",
+            "submodule": "uploader"
+        },
+        {
+            "file": "validate\\validation.js",
+            "line": 15,
+            "description": "undefined, null, 空文字''のときはfalse。",
+            "params": [
+                {
+                    "name": "values",
+                    "description": "スカラー値または配列\n引数なしで呼び出されたときはfalseを返す。\nネストは考慮しない。"
+                }
+            ],
+            "class": "Validation",
+            "module": "client",
+            "submodule": "uploader"
+        },
+        {
+            "file": "validate\\validation.js",
+            "line": 50,
+            "description": "0より大きいかをチェック",
+            "params": [
+                {
+                    "name": "num!~YUIDOC_LINE~!0より大きいときはtrue。それ以外はfalseを返す。!~YUIDOC_LINE~!引数なしで呼び出したときはfalse",
+                    "description": "",
+                    "type": "Number"
+                }
+            ],
+            "class": "Validation",
+            "module": "client",
+            "submodule": "uploader"
+        },
+        {
+            "file": "validate\\validation.js",
+            "line": 73,
+            "description": "0以上かをチェック",
+            "params": [
+                {
+                    "name": "num!~YUIDOC_LINE~!0以上はtrue。それ以外はfalseを返す。!~YUIDOC_LINE~!引数なしで呼び出したときはfalse",
+                    "description": "",
+                    "type": "Number"
+                }
+            ],
+            "class": "Validation",
+            "module": "client",
+            "submodule": "uploader"
+        }
+    ],
+    "warnings": [
+        {
+            "message": "unknown tag: position",
+            "line": " text\\text.js:96"
+        },
+        {
+            "message": "unknown tag: ctx",
+            "line": " text\\text.js:96"
+        },
+        {
+            "message": "unknown tag: form",
+            "line": " text\\text.js:96"
+        },
+        {
+            "message": "Missing item type\n名前空間を設定・管理する。\n\n<p>引数に対応する既存のオブジェクトが存在するときは\nそのオブジェクトを返す。存在しないときは空のオブジェクト作成・登録してして返す。</p>",
+            "line": " app\\app.js:11"
+        },
+        {
+            "message": "Missing item type\ndraw text",
+            "line": " text\\texthandle.js:54"
+        },
+        {
+            "message": "Missing item type\nドラッグイベントのdefault処理をキャンセルする為にfalseを返す",
+            "line": " uploader\\uploaderhtml5.js:111"
+        },
+        {
+            "message": "Missing item type\nundefined, null, 空文字''のときはfalse。",
+            "line": " validate\\validation.js:15"
+        },
+        {
+            "message": "Missing item type\n0より大きいかをチェック",
+            "line": " validate\\validation.js:50"
+        },
+        {
+            "message": "Missing item type\n0以上かをチェック",
+            "line": " validate\\validation.js:73"
+        }
+    ]
+}

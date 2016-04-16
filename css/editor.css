@@ -1,0 +1,68 @@
+@charset "utf-8";
+body {
+    line-height: 1.5;
+}
+h1 {
+    color: #0088CC;
+}
+#header {
+    margin-bottom: 2em;
+}
+#upload-wrapper {
+    margin-bottom: 1em;
+}
+#message {
+    margin-top: 1.25em;
+}
+.row {
+    margin-bottom: 2em;
+}
+.tuple {
+    margin: 1em 0;
+}
+.btn {
+    width: 170px;
+}
+.view {
+    overflow: scroll;
+    position: relative;
+    height: 428px;
+    background: #F0F0F0;
+}
+#drop-message {
+    margin: 1.5em;
+    color: #666;
+    font-size: 1.4em;
+}
+.num-input {
+    width: 44px;
+}
+#selection {
+    z-index: 2;
+    position: absolute;
+    display: none;
+    top: 0;
+    left: 0;
+    width: 100px;
+    height: 100px;
+    background: transparent;
+    border: 2px dotted #f2b4b3;
+}
+#edit-dialog {
+    padding: 1em 0;
+}
+#save-dialog {
+}
+.tabs {
+    display: none;
+}
+#tabs-0 {
+    display: block;
+}
+.tabs div {
+    margin-bottom: 1em;
+}
+#org-width, #org-height {
+    background: #F4F4F4;
+}
+

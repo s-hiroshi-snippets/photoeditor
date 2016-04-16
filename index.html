@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Photo editor</title>
+	<link rel="stylesheet" href="plugins/bootstrap.min.css" media="all">
+	<link rel="stylesheet" href="plugins/bootstrap-responsive.min.css" media="all">
+	<link rel="stylesheet" href="plugins/jquery-ui-1.9.1.custom.min.css" media="all">
+	<link rel="stylesheet" href="css/editor.css" media="all">
+	<script src="plugins/jquery-1.8.2.min.js"></script>
+	<script src="plugins/jquery-ui-1.9.1.custom.min.js"></script>
+	<script src="plugins/bootstrap.min.js"></script>
+	<script src="js/graphic/graphic.js"></script>
+	<script src="js/original/original.js"></script>
+	<script src="js/original/originalhandle.js"></script>
+	<script src="js/uploader/uploaderhtml5.js"></script>
+	<script src="js/filtering/boundary.js"></script>
+	<script src="js/filtering/pointfilter.js"></script>
+	<script src="js/filtering/spatialfilter.js"></script>
+	<script src="js/filtering/filter.js"></script>
+	<script src="js/filtering/scan.js"></script>
+	<script src="js/filtering/handle.js"></script>
+	<script src="js/validate/validation.js"></script>
+	<script src="js/transform/transformrotate.js"></script>
+	<script src="js/transform/transformresize.js"></script>
+	<script src="js/transform/transformhandle.js"></script>
+	<script src="js/save/save.js"></script>
+	<script src="js/ui/window.js"></script>
+	<script src="js/app/app.js"></script>
+	<script src="js/ui/tab.js"></script>
+</head>
+<body>
+<div class="container">
+	<div id="header"><h1>Photo editor</h1></div>
+</div>
+<!-- .container -->
+
+<div class="container">
+	<div class="row">
+		<!-- 画像表示 -->
+		<div id="view-wrapper" class="span6">
+			<div>
+				画像サイズが大きいとエフェクト処理に時間がかかります。
+				画像サイズは640(横) x 480(縦)を目安にして下さい。
+			</div>
+			<div id="upload-wrapper">
+				<input id="upload" name="upload" type="file" value="File Upload">
+			</div>
+			<!-- #upload-wrapper -->
+			<div class="tuple">
+				<button id="original" class="btn btn-info">元の画像表示</button>
+				横 <input id="org-width" class="num-input" type="text" size="5" disabled="disabled">
+				縦 <input id="org-height" class="num-input" type="text" size="5" disabled="disabled">
+			</div>
+			<!-- .tuple -->
+			<div id="view" class="view">
+				<div id="drop-message">画像をドラッグ&amp;ドロップしてください。</div>
+				<canvas id="main-canvas"></canvas>
+				<div id="selection"></div>
+			</div>
+			<!-- .view -->
+			<div class="tuple">
+				<button id="save" class="btn btn-large btn-info">画像保存</button>
+			</div>
+			<!-- .tuple -->
+		</div>
+		<!-- .view-wrapper .span6 -->
+
+		<!-- 画像加工 -->
+		<div class="span5 offset1">
+			<!-- 画像加工ダイアログ -->
+			<div id="edit-dialog" title="画像加工ダイアログ">
+				<ul class="nav nav-tabs">
+					<li class="active"><a href="#">リサイズ</a></li>
+					<li><a href="#">回転</a></li>
+					<li><a href="#">トリミング</a></li>
+					<li><a href="#">エフェクト</a></li>
+				</ul>
+				<div id="tabs-0" class="tabs">
+					<h4>リサイズ</h4>
+					<div>
+						<h5>自由変形</h5>
+						横: <input id="width" class="num-input" type="text" size="5">
+						縦: <input id="height" class="num-input" type="text" size="5">
+					</div>
+					<div>
+						縦横固 <input id="ratio" type="checkbox" name="ratio">
+					</div>
+					<div>
+						<button id="resize" class="btn">リサイズ</button>
+					</div>
+				</div>
+				<!-- .tabs -->
+				<div id="tabs-1" class="tabs">
+					<h4>回転</h4>
+					<div>
+						<button id="rotate-right" class="btn">時計回り90度回転</button>
+						<button id="rotate-left" class="btn">反時計回り90度回転</button>
+					</div>
+				</div>
+				<!-- .tabs -->
+				<div id="tabs-2" class="tabs">
+					<h4>トリミング</h4>
+					<p>準備しております。</p>
+				</div>
+				<!-- .tabs -->
+				<div id="tabs-3" class="tabs">
+					<h4>エフェクト</h4>
+					<div class="tuple">
+						<button id="reverse" class="filtering btn btn-large">reverse</button>
+						<button id="mono" class="filtering btn btn-large">monochrome</button>
+					</div>
+					<div class="tuple">
+						<button id="grayscale" class="filtering btn btn-large">grayscale</button>
+						<button id="sepia" class="filtering btn btn-large">sepia(セピア)</button>
+					</div>
+					<div class="tuple">
+						<button id="red" class="filtering btn btn-large">赤色を濃く</button>
+						<button id="green" class="filtering btn btn-large">緑色を濃く</button>
+						<button id="blue" class="filtering btn btn-large">青色を濃く</button>
+					</div>
+					<div class="tuple">
+						<button id="smooth" class="filtering btn btn-large">smooth(単純平均)</button>
+						<button id="sharpen" class="filtering btn btn-large">sharpen(先鋭化)</button>
+						<button id="sharpen2" class="filtering btn btn-large">sharpen 2(先鋭化2)</button>
+					</div>
+					<div class="tuple">
+						<button id="differentialH" class="filtering btn btn-large">edge detection(横方向エッジ検出)</button>
+						<button id="differentialV" class="filtering btn btn-large">edge detection vertical(縦方向エッジ検出)
+						</button>
+					</div>
+					<div class="tuple">
+						<button id="prewitt" class="filtering btn btn-large">Prewitt</button>
+						<button id="sobel" class="filtering btn btn-large">Sobel</button>
+					</div>
+				</div>
+				<!-- .tabs -->
+			</div>
+			<!-- .edit-dialog -->
+
+			<!-- 画像保存ダイアログ -->
+			<div id="save-dialog" title="画像保存"></div>
+		</div>
+		<!-- .span5 -->
+	</div>
+	<!-- .row -->
+</div>
+<!-- .container -->
+</body>
+</html>
