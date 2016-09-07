@@ -1,8 +1,7 @@
-# Canvasを使った画像加工
+# Photo editor
 
-## 課題
+JavaScriptでCanvasに表示した画像を加工する機能を提供します。
 
-回転の丸めこみ
 
 ## 確認ブラウザ
 
